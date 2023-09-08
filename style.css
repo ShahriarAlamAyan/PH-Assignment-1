@@ -12,10 +12,14 @@
     font-weight: 800;
 }
 
+nav{
+    display: flex;
+}
+
 nav ul{
-    
+    display: flex;
 }
 
 nav li{
-
+    list-style: none;
 }
