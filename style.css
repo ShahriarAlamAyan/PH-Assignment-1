@@ -15,7 +15,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 226px;
+    padding: 51px 226px;
 }
 
 nav ul {
@@ -41,9 +41,18 @@ nav li {
 
 }
 
+.header{
+    background-color:#FFF8F3;
+    background-image: url(header_bg.png),url(developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    padding-right: 30px;
+}
+
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-text{
@@ -71,3 +80,4 @@ nav li {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
