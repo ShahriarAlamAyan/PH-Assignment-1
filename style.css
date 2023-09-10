@@ -26,7 +26,7 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 51px;
-    
+
 }
 
 .btn-primary {
@@ -41,38 +41,50 @@ nav li {
 
 }
 
-.header{
-    background-color:#FFF8F3;
-    background-image: url(header_bg.png),url(developer.png);
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(header_bg.png), url(developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
     padding-right: 30px;
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-text{
+.banner-text {
     margin-left: 230px;
 
 }
 
-.banner-head{
+.banner-head {
     color: var(--Dark-02, #474747);
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-name{
+.banner-name {
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-weight: 700;
 }
 
-.banner-pera{
+.banner-pera {
     color: var(--Dark-03, #757575);
     font-size: 18px;
     font-weight: 400;
@@ -81,3 +93,33 @@ nav li {
     margin-bottom: 30px;
 }
 
+
+
+/* about me section----- */
+
+
+.info {
+    margin: 130px 230px;
+    padding: 130px 155px;
+    background: #FFF8F3;
+}
+
+.info-head {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.info-pera {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
